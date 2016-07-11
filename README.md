@@ -37,7 +37,7 @@ var fileKeyC = new Builder<FileKey>(fileKeyA)
 We can make entirely new objects as well:
 ```
 var fileKeyD = new Builder<FileKey>()
-    .Set(k => k.AccountId, 123)
+    .Set(k => k.AccountId, 234)
     .Set(k => k.CreateTime, new DateTime(2016, 7, 10))
     .Build();
 ```
