@@ -24,7 +24,7 @@ And an instance created:
 ```
 var fileKeyA = new FileKey(123, new DateTime(2016, 7, 10));
 ```
-We can make a clone easily:
+Using the `Builder` class, we can make a clone easily:
 ```
 var fileKeyB = new Builder<FileKey>(fileKeyA).Build();
 ```
