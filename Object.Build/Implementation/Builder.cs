@@ -181,7 +181,7 @@ namespace Object.Build.Implementation
             string propertyName, 
             TTPropertyType value)
         {
-            _propertyValues.TryAdd(propertyName, value);
+            _propertyValues.TryAdd(propertyName.ToLower(), value);
 
             return this;
         }
